@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+
+
+}
+
+.hora, .minuto, .segundo{
+    background-color: rgb(153, 153, 153);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+
+
+.data{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: rgb(153, 153, 153);
+    border-radius: 5px;
+    padding: 10px;
+    
+    
+    
+}
+
+
