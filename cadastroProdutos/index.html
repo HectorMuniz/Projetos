@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <title>Cadastro De Produtos</title>
+</head>
+<body">
+
+    <header class="header">
+        <h1>Cadastro De Produtos</h1>
+    </header>
+
+    <div class="add">
+        <label>Nome do Produto:</label>
+        <input type="text" id="nomeProduto">
+
+        <label>Código do produto:</label>
+        <input type="text" id="codProduto">
+
+        <label>Quantidade do Produto:</label>
+        <input type="text" id="qtidadeProduto">
+
+    
+
+
+        <button class="button" onclick="validarProduto()">Cadastrar</button>
+        <button class="button " onclick="limpar()">Limpar</button>
+
+
+    <div class="tabela">
+        <table>
+            <tr>
+                <th>Codígo</th>
+                <th>Produto</th>
+                <th>Quantidade no Estoque</th>
+            </tr>
+
+            <tbody class="tbody">
+
+                
+            </tbody>
+        </table>
+    </div>
+    
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
